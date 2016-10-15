@@ -10,7 +10,12 @@
 
 .navbar {
   margin-bottom: 0;
-  margin-top: 0px !important
+  margin-top: 0px !important;
+  background-color: #66b9bf;
+}
+
+.navbar-brand {
+  color: black !important;
 }
 
 .item  img {
@@ -18,6 +23,9 @@
     margin: 0 auto;
 }
 
+a {
+    color: black !important;
+}
 
 #courses {
   paddng-top: 30px;
@@ -32,6 +40,14 @@
     bottom: 0;
     height: 200px;
 
+}
+
+.navbar-toggle {
+  background-color: rgb(274,174,114)!important;
+}
+
+.icon-bar {
+  background-color: black;
 }
 
 
