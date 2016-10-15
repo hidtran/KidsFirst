@@ -19,12 +19,8 @@
 }
 
 
-
-#firstBar {
-  height: 4em;
-  background-color: #66b9bf;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
+#courses {
+  paddng-top: 30px;
 }
 
 #header {
@@ -35,10 +31,34 @@
     position: absolute;
     bottom: 0;
     height: 200px;
-    
+
 }
 
+
+.item img { /*centers image in carousel */
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 600px;
+}
+#courses {
+  padding-top: 1.4em;
+}
 footer {
    background-color: #66b9bf;
    padding: 1.4em;
+}
+
+.footer {
+  float: right;
+}
+
+.footer {
+  display: inline;
+}
+.footer li{
+  list-style: none;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
 }
