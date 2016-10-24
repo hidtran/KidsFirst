@@ -45,6 +45,8 @@
   float: right;
 }
 
+
+
 #courses {
   paddng-top: 30px;
 }
@@ -64,8 +66,67 @@
   font-weight: bold;
 }
 
+#donateJumbo {
+  background-image: url("./img/donate2.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.jumbotext { /*poisitions text in jumbotron in the menu page */
+  position: absolute;
+  /*z-index: 10;*/
+  margin-top: -250px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.3);
+  left: 20%;
+  right: 20%;
+}
+
+.jumbotext h1,h2 {
+  padding-top: -15px;
+}
+
+.jumbotext hr{
+  width: 25%;
+}
+
+#donate {
+  text-align: center;
+}
+
+#donateForm {
+    padding: 1.2em;
+}
+
+#donateForm p{
+  padding-top: 1.2em;
+}
+
+.center {
+  text-align: center;
+
+}
+
+
 .navbar-toggle {
   background-color: rgb(274,174,114)!important;
+}
+
+.hide {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.opaque {
+    background-color: rgba(0,100,137,.4);
 }
 
 nav {
@@ -82,16 +143,19 @@ nav {
     display: block;
     margin: 0 auto;
     width: 100%;
-    max-height: 600px;
+    max-height: 527px;
 }
 #courses,#testimonials {
   padding-top: 1.4em;
   padding-bottom: 1.4em;
 }
+
+
 .footer {
    background-color: #006489;
    padding: 1.4em;
    color: white;
+   margin-top: 1.2em;
 }
 .footer ul {
   margin-right: 5px;
