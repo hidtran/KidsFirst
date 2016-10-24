@@ -137,8 +137,13 @@ nav {
   background-color: black;
 }
 
+.faqTitle {
+  font-weight: bold;
+}
 
-
+.faq p{
+  margin-left: 5em;
+}
 .item img { /*centers image in carousel */
     display: block;
     margin: 0 auto;
