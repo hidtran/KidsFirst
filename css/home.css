@@ -71,9 +71,19 @@
   height: 350px;
   background-size: cover;
   background-position: center;
-
 }
 
+#contactJumbo {
+  background-image: url("./img/contact.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+hr.small {
+  width: 25%;
+  border-top: 1px solid #006489;
+}
 .jumbotext { /*poisitions text in jumbotron in the menu page */
   position: absolute;
   /*z-index: 10;*/
@@ -94,6 +104,22 @@
   width: 25%;
 }
 
+.contactIcon {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactIcon img{
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#map {
+  height:400px;
+
+}
 #donate {
   text-align: center;
 }
@@ -155,6 +181,9 @@ nav {
   padding-bottom: 1.4em;
 }
 
+#contactButton {
+  width: 30%;
+}
 
 .footer {
    background-color: #006489;
@@ -167,4 +196,16 @@ nav {
 }
 li a {
   color: white;
+}
+.contactIcon p{
+  margin-bottom: 1.2em;
+  padding-top: .4em;
+}
+@media only screen and (max-width: 900px) {
+	#contact {
+	   text-align: center;
+	}
+  #logo {
+    display: none;
+  }
 }

@@ -13,43 +13,7 @@
 </head>
 <body>
 
-<header>
-  <div id="top-nav" class="navbar-collapse collapse">
-    <div class="container">
-          <span class="logo">Kids First OC</span>
-          <div class="desc">
-            A Non-Profit Organization
-            <div class="right">
-              <span id="callUs">CALL US:</span> 714-604-6439
-            </div>
-          </div>
-    </div>
-  </div>
-  <nav id="top-bot-nav" class="navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html"><strong>Kids First OC</strong></a>
-      </div>
-
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="learn.html">Learn</a></li>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-          <li><a href="register.html">Register</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
-
-</header>
-
+<?php include 'header.php' ?>
   <!-- Carousel
    ================================================== -->
    <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -145,21 +109,7 @@
      <blockquote>
    </div>
 
-   <nav id="footer" class="navbar">
-     <div class="container">
-         <span class="navbar-brand">Copyright &copy; KidsFirst 2016</span>
-
-
-       <div id="navbar">
-         <ul class="nav navbar-nav navbar-right">
-           <li><a href="contact.html">Contact</a></li>
-           <li><a href="faq.html">FAQ</a></li>
-           <li><a href="privacy.html">Privacy</a></li>
-           <li><a href="thanks.html">Thanks</a></li>
-         </ul>
-       </div><!--/.nav-collapse -->
-     </div>
-   </nav>
+<?php include 'footer.php' ?>
 
 
 </body>
