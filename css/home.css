@@ -185,6 +185,10 @@ nav {
   width: 30%;
 }
 
+#footer {
+  margin-top: 15px !important;
+}
+
 .footer {
    background-color: #006489;
    padding: 1.4em;

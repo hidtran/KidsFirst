@@ -69,7 +69,7 @@
 
    <div class="container marketing">
      <div class="row">
-       <div class="col-md-4">
+       <div class="col-md-4 contactIcon">
 
          <img class="img-circle" src="css/img/little_girl.jpg" alt="Generic placeholder image" width="140" height="140">
          <h2>Who We Are</h2>
@@ -78,7 +78,7 @@
 		</div>
          <p><a class="btn btn-default" href="#" role="button">Learn More &raquo;</a></p>
        </div><!-- /.col-lg-4 -->
-       <div class="col-md-4">
+       <div class="col-md-4 contactIcon">
          <img class="img-circle" src="css/img/laughing.jpg" alt="Generic placeholder image" width="140" height="140">
          <h2>What We Do</h2>
          <div align = "justify">
@@ -86,10 +86,10 @@
 		</div>
          <p><a class="btn btn-default" href="#" role="button">Learn More &raquo;</a></p>
        </div><!-- /.col-lg-4 -->
-       <div class="col-md-4">
+       <div class="col-md-4 contactIcon">
          <img class="img-circle" src="css/img/2kids.jpg" alt="Generic placeholder image" width="140" height="140">
          <h2>Register Today</h2>
-		 <div align = "justify">
+		 <div align="justify">
 			<p><b>Kids First</b> is an important commitment to yourself and your child. For Registration and Fee Information, go to our <font color = 'green'>Registration page</font>.
 				  For Program Dates, see our <font color='green'>Program Schedule.</font></p>
 			   <p>For additional information, or to speak with the Registration Coordinator, please call: <b>714-604-6439.</b></p>
