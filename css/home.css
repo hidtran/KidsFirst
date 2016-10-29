@@ -118,7 +118,7 @@ hr.small {
 
 #map {
   height:400px;
-
+  margin-bottom: 1.4em;
 }
 #donate {
   text-align: center;
@@ -166,6 +166,17 @@ nav {
 .selectable, .selected {
     background-color: #f2f2f2 !important;
     display: all !important;
+}
+
+.even {
+  background-color: #f2f2f2;
+  height: width: 100vh;
+}
+
+.featurette-divider {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: -30px;
 }
 
 .faqTitle {

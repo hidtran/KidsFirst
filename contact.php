@@ -21,6 +21,7 @@
        <div id="map">My map will go here</div>
   </div>
    <hr class="featurette-divider">
+   <div class="even">
   <div class="container">
     <h3 class="center">Contact</h3>
     <hr class="small">
@@ -41,6 +42,7 @@
           <p>18685 Main Street #A-467</br>Huntington Beach, CA 92648</p>
       </div>
     </div>
+  </div>
 
   </div>
    <hr class="featurette-divider">
