@@ -163,13 +163,32 @@ nav {
   background-color: black;
 }
 
+.selectable, .selected {
+    background-color: #f2f2f2 !important;
+    display: all !important;
+}
+
 .faqTitle {
   font-weight: bold;
+}
+
+.container.faq {
+  border-bottom: .1em solid #006489;
+  background-color: #e6e6e6;
 }
 
 .faq p{
   margin-left: 5em;
 }
+
+.faq li{
+  margin-left: 3.5em;
+}
+
+.faqDesc {
+    font-size: 1.1em;
+}
+
 .item img { /*centers image in carousel */
     display: block;
     margin: 0 auto;

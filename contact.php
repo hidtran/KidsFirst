@@ -25,7 +25,7 @@
     <h3 class="center">Contact</h3>
     <hr class="small">
     <p class="center">
-      Kid's First Support can be contaced through the channels below.
+      Kid's First Support can be contaced through the channels below:
     </p>
     <div id="contact" class"row">
       <div class="col-md-4 contactIcon">

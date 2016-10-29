@@ -10,7 +10,24 @@ var main = function() {
         $('#top-bot-nav').removeClass('opaque');
     }
   });
-  $(".accordian").accordian();
+  $('.faqDesc').slideUp();
+
+  $('.accordian').on('mouseenter', '.container.faq',
+      function( event ) {
+        $(this).addClass("selectable");
+      }).on('mouseleave', '.faq', function( event ) {
+        $(this).removeClass("selectable");
+      }
+    );
+
+  $('.accordian').on('click','.container.faq',
+    function() {
+      //  $('> .faqDesc', this).toggleClass('hide');
+      //  $('> .faqDesc', this).slideUp('slow');
+        $(this).toggleClass('selected');
+        $('> .faqDesc', this).slideToggle('slow');
+    }
+  );
 };
 
 var map;
@@ -30,6 +47,7 @@ function initMap() {
   });
   infowindow.open(map,marker);
 }
+
 
 $(document).ready(main);
 initMap();
