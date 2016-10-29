@@ -10,6 +10,7 @@ var main = function() {
         $('#top-bot-nav').removeClass('opaque');
     }
   });
+  $(".accordian").accordian();
 };
 
 var map;
